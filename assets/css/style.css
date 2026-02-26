@@ -14374,6 +14374,10 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 2%;
 }
 
+.head-icon {
+  width: 30px;
+}
+
 /* Service Details Restructured Sections */
 .service-details-img {
   margin-bottom: 30px;
