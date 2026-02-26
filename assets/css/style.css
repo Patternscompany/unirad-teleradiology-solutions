@@ -42,7 +42,7 @@
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1224px;
   --container-gutters: 24px;
-  --section-space: 120px;
+  --section-space: 60px;
   --section-space-mobile: 80px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
@@ -14364,6 +14364,15 @@ span.select2-selection.select2-selection--single:focus {
   transition: 0.4s ease-in-out;
 }
 
+.core-service {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  background-color: var(--white-color);
+  box-shadow: -6px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 2%;
+}
+
 .service-card .box-icon {
   width: 80px;
   height: 80px;
@@ -16507,6 +16516,11 @@ span.select2-selection.select2-selection--single:focus {
 .space-extra2,
 .space-extra2-bottom {
   padding-bottom: calc(var(--section-space) - 40px);
+}
+
+.space#service-sec {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* Medium devices */
