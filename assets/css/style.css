@@ -4916,7 +4916,7 @@ ol.wp-block-rss {
 }
 
 .about-logo a img {
-  width: 300px;
+  width: 200px;
 }
 
 .th-widget-about {
@@ -5336,7 +5336,7 @@ ol.wp-block-rss {
 }
 
 .header-logo a img {
-  width: 350px;
+  width: 160px;
 }
 
 .header-links ul {
@@ -5496,7 +5496,7 @@ ol.wp-block-rss {
   position: relative;
   z-index: 2;
   height: 100px;
-  padding: 20px 10px 20px 0;
+  /* padding: 20px 10px 20px 0; */
 }
 
 .header-layout1 .header-logo .logo-bg {
@@ -12119,18 +12119,50 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-info {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
   border-radius: 50px 20px 20px 20px;
-  background-color: var(--white-color);
   max-width: 220px;
-  width: 100%;
   padding: 25px 10px;
   text-align: center;
+  border: 2px solid #4facfe;
+}
+
+.about-info::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 60px;
+  height: 60px;
+  background: rgba(79, 172, 254, .2);
+  border-radius: 12px;
+  filter: blur(10px);
+}
+
+.about-info::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 242, 254, .25);
+  border-radius: 50%;
+  filter: blur(12px);
 }
 
 .about-info .box-title {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 4px;
+}
+
+.about-info .team-desig {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .about-info .box-text {
@@ -12143,7 +12175,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-info .box-review i {
-  font-size: 14px;
+  font-size: 10px;
   margin: 0 1.5px;
 }
 
