@@ -8100,7 +8100,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child>.th-post-
   content: "";
   height: 22px;
   width: 100%;
-  background-image: url('data:image/svg+xml,<svg width="288" height="22" viewBox="0 0 288 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 10.2839C33.4393 5.13087 76.1911 2 123.041 2C194.686 2 256.746 9.32162 287 20" stroke="%2304CE78" stroke-width="3"/></svg>');
+  background-image: url('data:image/svg+xml,<svg width="288" height="22" viewBox="0 0 288 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 10.2839C33.4393 5.13087 76.1911 2 123.041 2C194.686 2 256.746 9.32162 287 20" stroke="%2300add9" stroke-width="3"/></svg>');
   background-size: 288px 22px;
   background-repeat: repeat-x;
   position: absolute;
