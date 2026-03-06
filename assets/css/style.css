@@ -21088,6 +21088,10 @@ span.select2-selection.select2-selection--single:focus {
   background-color: #f4f8ff;
 }
 
+#teamSlider1.th-slider .swiper-slide {
+  /* margin-right: 10px !important; */
+}
+
 /* ── Equal-height team cards ── */
 /* Make the swiper wrapper stretch all slides to the tallest */
 #team-sec .swiper-wrapper,
