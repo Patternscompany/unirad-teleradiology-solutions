@@ -1504,7 +1504,7 @@ textarea.is-invalid {
   background: -webkit-linear-gradient(top,
       var(--theme-color) 37.5%,
       #00add9 100%);
-  background: linear-gradient(180deg, var(--theme-color) 37.5%, #00add9 100%);
+  background: linear-gradient(180deg, #00add9a6 37.5%, #00add9 100%);
   box-shadow: 0px 3px 15px rgba(174, 211, 195, 0.7);
   font-family: var(--body-font);
   font-size: 14px;
@@ -5376,7 +5376,7 @@ ol.wp-block-rss {
 }
 
 .header-logo a img {
-  width: 160px;
+  width: 180px;
 }
 
 .header-links ul {
