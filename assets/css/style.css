@@ -5131,6 +5131,14 @@ ol.wp-block-rss {
   color: var(--theme-color);
 }
 
+.th-mobile-menu>ul>li.active>a {
+  color: var(--theme-color2);
+}
+
+.main-menu>ul>li.active>a {
+  color: var(--theme-color2);
+}
+
 .main-menu ul {
   margin: 0;
   padding: 0;
